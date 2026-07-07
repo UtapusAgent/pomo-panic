@@ -16,9 +16,9 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Timer presets
+- Work/break timer
+- Start/pause/reset
 - Session logging
-- Break lengths
 - SQLite history
 
 ## Use Cases
