@@ -1,6 +1,6 @@
 # Pomodoro Timer
 
-A tiny focus timer with noisy controls.
+Track focus sessions with saved presets and logs.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Work/break modes
-- Start pause reset
-- Session count
-- Configurable minutes
+- Timer presets
+- Session logging
+- Break lengths
+- SQLite history
 
 ## Use Cases
 
-- Focus sessions
-- Study timer
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project
